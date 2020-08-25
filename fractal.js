@@ -1,8 +1,7 @@
 const path = require('path');
 
-const fractal = module.exports = require('@frctl/fractal').create();
+const fractal = (module.exports = require('@frctl/fractal').create());
 const pkg = require(path.join(__dirname, 'package.json'));
-
 
 /*-------------------------------------------------------*\
   Feel free to adapt Fractal config below to your needs
@@ -11,7 +10,7 @@ const pkg = require(path.join(__dirname, 'package.json'));
 /**
  * Metadata
  */
-fractal.set('project.title', 'Styleguide Starterkit');
+fractal.set('project.title', 'Geocity styleguide');
 // Provide the package.json "version" to the templates
 fractal.set('project.version', pkg.version);
 
@@ -37,7 +36,20 @@ fractal.docs.engine('@frctl/nunjucks');
 // Look for templates with a ".nunj" extension
 fractal.components.set('ext', '.nunj');
 
+/**
+ * Theming
+ */
+// require the Mandelbrot theme module
+const mandelbrot = require('@frctl/mandelbrot');
 
+// create a new instance with custom config options
+const myCustomisedTheme = mandelbrot({
+  skin: 'white',
+  // any other theme configuration values here
+});
+
+// tell Fractal to use the configured theme by default
+fractal.web.theme(myCustomisedTheme);
 /*----------------------------------------*\
   Change the following at your own risk
 \*----------------------------------------*/
@@ -54,5 +66,5 @@ fractal.web.set('server.sync', true);
  */
 const bluebird = require('bluebird');
 bluebird.config({
-  warnings: false
+  warnings: false,
 });
