@@ -1,4 +1,4 @@
-# Styleguide
+# Geocity Styleguide
 
 Styleguides build with [Fractal](http://fractal.build/) and [Webpack](https://webpack.js.org/).
 
