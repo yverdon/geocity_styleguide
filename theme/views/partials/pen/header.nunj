@@ -1,0 +1,30 @@
+<div class="Pen-panel Pen-header">
+  <h1 class="Pen-title">
+    <a class="Pen-previewLink" href="{{ previewUrl }}" title="Component preview">
+      {{ entity.title }}
+      {% include "icons/open-in-browser.svg" %}
+    </a>
+  </h1>
+
+  <span class="Preview-size"></span>
+
+  <div class="Pen-header-meta">
+    {% if entity.tags %}
+      <ul class="Pen-tags">
+        {% for tag in entity.tags %}
+          {% if tag == "js" %}
+            <li>
+              <img src="{{ path('/subtheme/img/js.svg') }}" alt="Requires some JavaScript" class="Pen-tag-icon" />
+            </li>
+          {% elseif tag == "vue" %}
+            <li>
+              <img src="{{ path('/subtheme/img/vue.svg') }}" alt="Available as Vue component" class="Pen-tag-icon" />
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {{ status.tag(entity.status) }}
+  </div>
+</div>

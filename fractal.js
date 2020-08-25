@@ -37,19 +37,11 @@ fractal.docs.engine('@frctl/nunjucks');
 fractal.components.set('ext', '.nunj');
 
 /**
- * Theming
+ * Custom theme
  */
-// require the Mandelbrot theme module
-const mandelbrot = require('@frctl/mandelbrot');
+const piagetTheme = require('./theme');
+fractal.web.theme(piagetTheme);
 
-// create a new instance with custom config options
-const myCustomisedTheme = mandelbrot({
-  skin: 'white',
-  // any other theme configuration values here
-});
-
-// tell Fractal to use the configured theme by default
-fractal.web.theme(myCustomisedTheme);
 /*----------------------------------------*\
   Change the following at your own risk
 \*----------------------------------------*/

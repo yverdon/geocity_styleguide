@@ -1,0 +1,32 @@
+.palette {
+  margin: 0 -0.25em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.color {
+  position: relative;
+  flex: 1 1 4em;
+  margin: 0 0.25em 1.5em;
+
+  background-color: $color-background-offset;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5em;
+    border-radius: map(borders, radius-default);
+    background-color: currentColor;
+  }
+}
+
+.color__meta {
+  display: block;
+  padding: 0.5em 1em;
+
+  font-family: 'Hack', 'Consolas', 'Monaco', monospace;
+  font-size: 0.825em;
+  line-height: 1.8;
+  color: $color-text;
+}

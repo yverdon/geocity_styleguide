@@ -2,10 +2,11 @@
   BASE
 \*----------------------------------------*/
 
-/* @import 'base/...'; */
+@import 'base/fonts';
+@import 'base/base';
 
 /*----------------------------------------*\
   COMPONENTS
 \*----------------------------------------*/
 
-/* @import 'components/...'; */
+@import 'components/headings';

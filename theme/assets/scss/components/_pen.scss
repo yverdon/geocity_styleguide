@@ -1,0 +1,27 @@
+.Pen {
+  background-color: #e8ebee;
+}
+
+.Pen-header .Status {
+  padding-left: 0.75rem !important;
+}
+
+.Pen-header-meta {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.Pen-tags {
+  display: flex;
+
+  > li + li {
+    margin-left: 0.75rem;
+  }
+}
+
+.Pen-tag-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}

@@ -1,5 +1,4 @@
 const path = require('path');
-const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
@@ -18,8 +17,7 @@ module.exports = {
     common: path.resolve(__dirname, 'assets/scripts/common.js'),
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    publicPath: '/',
+    path: path.resolve(__dirname, 'public'),
     filename: '[name].js',
   },
   module: {
@@ -43,7 +41,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(svg|png|jpe?g|gif|woff|woff2|eot|ttf|otf)$/,
+        test: /\.(svg|png|jpe?g|gif|webp|woff|woff2|eot|ttf|otf)$/,
         exclude: path.resolve('./assets/icons'),
         use: [
           {

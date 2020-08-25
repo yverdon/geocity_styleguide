@@ -1,0 +1,33 @@
+{
+  "name": "mandelbrot-liip",
+  "version": "1.0.0",
+  "description": "Madelbrot theme customized",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --include-path 'node_modules' --output-style compressed -o dist/css assets/scss",
+    "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
+    "build:css": "npm run scss && npm run autoprefixer",
+    "watch:css": "onchange 'assets/scss/**/*.scss' -- npm run build:css",
+    "start": "npm run scss && npm run watch:css",
+    "build": "npm run build:css"
+  },
+  "author": "Liip AG",
+  "private": true,
+  "dependencies": {
+    "@frctl/mandelbrot": "^1.4.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.5",
+    "highlight.js": "^9.12.0",
+    "node-sass": "^4.14.1",
+    "normalize.css": "^7.0.0",
+    "onchange": "^7.0.2",
+    "postcss-cli": "^7.1.1",
+    "sass-mq": "^3.3.2",
+    "select2": "^4.0.3"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "IE >= 11"
+  ]
+}

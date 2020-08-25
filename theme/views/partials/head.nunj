@@ -1,0 +1,6 @@
+<link rel="shortcut icon" href="{{ path(frctl.theme.get('favicon')) }}" type="image/ico">
+{% include 'partials/stylesheets.nunj' %}
+<title>{% if page.title %}{{ page.title }} | {% endif %}{{ frctl.get('project.title') }}</title>
+
+<!-- Polyfill a couple of things for IE 11 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">

@@ -1,0 +1,34 @@
+context:
+  colors:
+    Brand:
+      brand:
+        var: 'brand'
+        hex: '#008C6F'
+    Grey:
+      grey100:
+        var: 'grey100'
+        hex: '#F1F4F8'
+      grey200:
+        var: 'grey200'
+        hex: '#BDC0C1'
+      grey300:
+        var: 'grey300'
+        hex: '#A3A7A8'
+      grey400:
+        var: 'grey400'
+        hex: '#898E90'
+      grey500:
+        var: 'grey500'
+        hex: '#6F7476'
+      grey600:
+        var: 'grey600'
+        hex: '#575A5c'
+      grey700:
+        var: 'grey700'
+        hex: '#3E4142'
+      grey800:
+        var: 'grey800'
+        hex: '#252727'
+      grey900:
+        var: 'grey900'
+        hex: '#0C0D0D'

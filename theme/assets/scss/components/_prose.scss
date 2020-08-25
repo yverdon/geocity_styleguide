@@ -1,0 +1,19 @@
+.Prose {
+  width: 100%;
+
+  .Document-content & {
+    max-width: 55em;
+  }
+
+  table table {
+    margin: 0;
+  }
+
+  h1:not(:first-child) {
+    margin-top: 2em;
+  }
+
+  #breaking-changes {
+    color: #d82424;
+  }
+}

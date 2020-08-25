@@ -1,0 +1,14 @@
+.Meta-key {
+  color: inherit;
+  line-height: 2;
+}
+
+.Meta-item .Meta-item {
+  padding-bottom: 0.3rem;
+  border-bottom-color: rgba(51,51,51,0.1);
+
+  &:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
