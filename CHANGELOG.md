@@ -1,3 +1,10 @@
+## [0.6.1](https://github.com/liip/styleguide-starterkit/compare/0.6.0...0.6.1) (2020-08-26)
+
+
+### Bug Fixes
+
+* change server to deploy ([37f0478](https://github.com/liip/styleguide-starterkit/commit/37f0478ffe3cc76449934b5850ebe13ae7d9278c))
+
 # 0.6.0 (2020-08-26)
 
 
