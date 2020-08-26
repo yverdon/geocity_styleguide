@@ -1,0 +1,7 @@
+<div class="form-group form-group--icon">
+  {% render '@icon', {  id: 'location', class: 'icon--100 text-brand mr-2 mb-2' } %}
+  <div class="form-group__wrapper">
+    <label for="text" class="form-group__label">Lorem</label>
+    <input type="text" id="text" name="text" class="form-group__input" />
+  </div>
+</div>

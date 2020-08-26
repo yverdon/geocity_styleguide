@@ -34,6 +34,9 @@ module.exports = {
       '2xl': '3.75rem', // 60px
     },
     colors: {
+      transparent: {
+        default: 'transparent',
+      },
       brand: {
         light: '#53c2a3',
         default: '#008C6F',

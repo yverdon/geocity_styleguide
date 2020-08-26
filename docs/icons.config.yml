@@ -5,3 +5,4 @@ context:
       - location
       - left
       - right
+      - chevron-down

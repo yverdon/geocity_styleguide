@@ -1,0 +1,4 @@
+<div class="form-group">
+  <label for="text" class="form-group__label">Lorem</label>
+  <input type="text" id="text" name="text" class="form-group__input" />
+</div>
