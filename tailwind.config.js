@@ -10,6 +10,16 @@ module.exports = {
       lg: '1024px',
       xl: '1280px',
     },
+    borderWidth: {
+      default: '1px',
+      0: '0',
+      1: '1px',
+      2: '2px',
+      3: '3px',
+      4: '4px',
+      6: '6px',
+      8: '8px',
+    },
     fontFamily: {
       heading: 'Roboto',
       body: ['Roboto', 'Helvetica', 'Arial', 'sans-serif'],
@@ -25,7 +35,12 @@ module.exports = {
     },
     colors: {
       brand: {
+        light: '#53c2a3',
         default: '#008C6F',
+        dark: '#007f75',
+      },
+      negative: {
+        default: '#fff',
       },
       gray: {
         100: '#F1F4F8',

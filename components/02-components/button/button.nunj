@@ -1,0 +1,2 @@
+<button class="btn{% if class %} {{ class }}{% endif %}">Button {{ name }}</button>
+<a href="#" class="btn{% if class %} {{ class }}{% endif %}">Button {{ name }}</a>

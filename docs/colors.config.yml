@@ -1,9 +1,19 @@
 context:
   colors:
     Brand:
+      brand-light:
+        var: 'brand-light'
+        hex: '#53c2a3'
       brand:
         var: 'brand'
         hex: '#008C6F'
+      brand-dark:
+        var: 'brand-dark'
+        hex: '#007f75'
+    Negative:
+      negative:
+        var: 'negative'
+        hex: '#fff'
     Grey:
       grey100:
         var: 'grey100'

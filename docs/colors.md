@@ -1,4 +1,4 @@
-Please prefer the variable generated from Tailwind over hardcoded value in CSS files.
+Please prefer the classes generated from Tailwind over hardcoded value in CSS files.
 
 {% for palette, values in colors %}
 

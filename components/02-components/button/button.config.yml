@@ -1,0 +1,13 @@
+variants:
+  - name: default
+    context:
+      name: default
+      class: btn--default
+  - name: primary
+    context:
+      name: primary
+      class: btn--primary
+  - name: secondary
+    context:
+      name: secondary
+      class: btn--secondary

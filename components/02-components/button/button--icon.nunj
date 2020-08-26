@@ -1,0 +1,4 @@
+<button class="btn btn--primary btn--icon">
+  {% render '@icon', {  id: 'calendar', class: 'icon--75 mr-2' } %}
+  Button
+</button>
