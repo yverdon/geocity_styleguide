@@ -1,0 +1,13 @@
+variants:
+  - name: icon--50
+    context:
+      class: icon--50
+  - name: icon--75
+    context:
+      class: icon--75
+  - name: icon--100
+    context:
+      class: icon--100
+  - name: icon--125
+    context:
+      class: icon--125

@@ -1,0 +1,7 @@
+context:
+  icons:
+    Actions:
+      - calendar
+      - location
+      - left
+      - right

@@ -1,0 +1,3 @@
+<svg class="icon icon--{{ id | default('calendar') }}{% if class %} {{ class }}{% endif %}">
+  <use xlink:href="{{ '/assets/icons.svg' | path }}#{{ id | default('calendar') }}" />
+</svg>
