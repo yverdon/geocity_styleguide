@@ -1,6 +1,6 @@
 {
   "name": "styleguide-starterkit",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "A starterkit to create styleguides with Fractal and Webpack.",
   "keywords": [
     "styleguide",
