@@ -6,3 +6,4 @@ context:
       - left
       - right
       - chevron-down
+      - close
