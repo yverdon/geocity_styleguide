@@ -1,3 +1,10 @@
+## [0.6.3](https://github.com/liip/styleguide-starterkit/compare/0.6.2...0.6.3) (2020-10-19)
+
+
+### Bug Fixes
+
+* Add button small variant ([e6e42cd](https://github.com/liip/styleguide-starterkit/commit/e6e42cd49cdce38c59aa368d30201002cd0c7a21))
+
 ## [0.6.2](https://github.com/liip/styleguide-starterkit/compare/0.6.1...0.6.2) (2020-10-19)
 
 
