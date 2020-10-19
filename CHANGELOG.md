@@ -1,3 +1,11 @@
+## [0.6.2](https://github.com/liip/styleguide-starterkit/compare/0.6.1...0.6.2) (2020-10-19)
+
+
+### Bug Fixes
+
+* Add icon close ([2748730](https://github.com/liip/styleguide-starterkit/commit/2748730386cbbbe9c99852b5e445bea3c9e73d00))
+* Change devServer port ([219afea](https://github.com/liip/styleguide-starterkit/commit/219afead8ab711f5536e3ab1517ad60d0efacf73))
+
 ## [0.6.1](https://github.com/liip/styleguide-starterkit/compare/0.6.0...0.6.1) (2020-08-26)
 
 
