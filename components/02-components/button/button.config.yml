@@ -11,3 +11,7 @@ variants:
     context:
       name: secondary
       class: btn--secondary
+  - name: small
+    context:
+      name: small
+      class: btn--small btn--secondary
