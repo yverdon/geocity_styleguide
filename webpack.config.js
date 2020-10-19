@@ -86,7 +86,7 @@ module.exports = {
     proxy: {
       '**': 'http://localhost:4000',
     },
-    port: 4000,
+    port: 2000,
     stats: {
       colors: true,
     },
