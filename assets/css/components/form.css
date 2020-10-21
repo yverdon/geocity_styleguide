@@ -13,6 +13,7 @@
 
 .form-group__label {
   @apply mb-1;
+  @apply bg-gray-900;
 }
 
 .form-group__input {
