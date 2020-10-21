@@ -27,7 +27,7 @@
     "prettier:fix": "npm run prettier -- --write",
     "validate": "npm run eslint && npm run prettier && npm run stylelint",
     "format": "npm run eslint:fix && npm run prettier:fix && npm run stylelint:fix",
-    "release": "npm run build && release-it",
+    "release": "release-it",
     "deploy": "rsync -e 'ssh -p 2202' -avzP --delete --exclude='.*' dist/ liip@ps8.ms.bsa.oriented.ch:/var/www/html/geocity-styleguide.liip.ch/"
   },
   "devDependencies": {
