@@ -1,7 +1,7 @@
 {
   "scripts": {
     "afterRelease": "npm run deploy",
-    "afterBump": "npm run build"
+    "bump": "npm run build"
   },
   "npm": {
     "publish": false
