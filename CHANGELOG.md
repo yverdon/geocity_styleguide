@@ -1,3 +1,10 @@
+## [0.6.4](https://github.com/liip/styleguide-starterkit/compare/0.6.3...0.6.4) (2020-10-21)
+
+
+### Bug Fixes
+
+* push compiled assets ([8220207](https://github.com/liip/styleguide-starterkit/commit/822020761f3e802869896e143474f0fbaedfcd63))
+
 ## [0.6.3](https://github.com/liip/styleguide-starterkit/compare/0.6.2...0.6.3) (2020-10-19)
 
 
