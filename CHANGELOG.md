@@ -1,3 +1,10 @@
+## [0.6.7](https://github.com/liip/styleguide-starterkit/compare/0.6.6...0.6.7) (2020-10-21)
+
+
+### Bug Fixes
+
+* center location SVG icon ([797dc11](https://github.com/liip/styleguide-starterkit/commit/797dc11dd2263104e8ce6851f294f75527e4a6a1))
+
 ## [0.6.6](https://github.com/liip/styleguide-starterkit/compare/0.6.5...0.6.6) (2020-10-21)
 
 ## [0.6.5](https://github.com/liip/styleguide-starterkit/compare/0.6.4...0.6.5) (2020-10-21)
