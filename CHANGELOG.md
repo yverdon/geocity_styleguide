@@ -1,3 +1,5 @@
+## [0.6.5](https://github.com/liip/styleguide-starterkit/compare/0.6.4...0.6.5) (2020-10-21)
+
 ## [0.6.4](https://github.com/liip/styleguide-starterkit/compare/0.6.3...0.6.4) (2020-10-21)
 
 
