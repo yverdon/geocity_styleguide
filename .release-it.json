@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "afterRelease": "npm run deploy",
-    "bump": "npm run build"
+    "after:release": "npm run deploy",
+    "after:conventional-changelog:beforeRelease": "npm run build"
   },
   "npm": {
     "publish": false
