@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "after:release": "npm run deploy",
-    "after:conventional-changelog:beforeRelease": "npm run build"
+    "after:release": "npm run build && npm run deploy"
   },
   "npm": {
     "publish": false
