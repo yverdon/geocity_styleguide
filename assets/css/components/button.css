@@ -3,8 +3,6 @@
   outline: none;
   @apply py-2 px-4;
 
-  @apply uppercase;
-
   &:disabled {
     @apply opacity-50;
     cursor: not-allowed;
@@ -12,8 +10,10 @@
 }
 
 .btn--default {
-  @apply bg-negative text-brand;
+  @apply text-brand;
   @apply border-brand border-2;
+
+  @apply lowercase;
 
   &:hover,
   &:focus {
