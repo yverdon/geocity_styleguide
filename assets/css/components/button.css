@@ -13,8 +13,6 @@
   @apply text-brand;
   @apply border-brand border-2;
 
-  @apply lowercase;
-
   &:hover,
   &:focus {
     @apply border-brand-light text-brand-light;
