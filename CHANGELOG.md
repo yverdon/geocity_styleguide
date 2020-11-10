@@ -1,3 +1,10 @@
+## [0.6.9](https://github.com/liip/styleguide-starterkit/compare/0.6.8...0.6.9) (2020-11-10)
+
+
+### Bug Fixes
+
+* remove Lowercase on BUTTON ([bfed310](https://github.com/liip/styleguide-starterkit/commit/bfed31032a2118f917acc65c6def20e9a717e937))
+
 ## [0.6.8](https://github.com/liip/styleguide-starterkit/compare/0.6.7...0.6.8) (2020-11-10)
 
 
