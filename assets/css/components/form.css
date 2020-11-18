@@ -21,10 +21,19 @@
   @apply p-1;
   @apply border-1 border-gray-300;
 
-  &:hover,
-  &:focus {
+  &:hover {
     @apply border-brand-light text-brand-light;
+  }
+
+  &:focus {
     @apply outline-none shadow-outline;
+  }
+
+  &[disabled] {
+    @apply opacity-50;
+    @apply bg-negative;
+    @apply border-gray-300 text-gray-300;
+    @apply cursor-not-allowed;
   }
 }
 
@@ -35,13 +44,22 @@
 .select {
   @apply appearance-none;
   @apply w-full;
-  @apply border-b-2 border-brand;
+  @apply border-1 border-gray-300;
   @apply bg-transparent p-1 text-brand;
 
-  &:hover,
-  &:focus {
+  &:hover {
     @apply border-brand-light text-brand-light;
+  }
+
+  &:focus {
     @apply outline-none shadow-outline;
+  }
+
+  &[disabled] {
+    @apply opacity-50;
+    @apply bg-negative;
+    @apply border-gray-300 text-gray-300;
+    @apply cursor-not-allowed;
   }
 }
 

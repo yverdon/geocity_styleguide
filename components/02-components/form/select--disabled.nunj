@@ -1,0 +1,13 @@
+<div class="form-group">
+  <label for="type" class="pl-2">Type</label>
+  <div class="select-group">
+    <select name="type" class="select" disabled>
+      <option selected>Sélectionner</option>
+      <option value="type-1">Type 1</option>
+      <option value="type-2">Type 2</option>
+    </select>
+    <div class="select-icon">
+      {% render '@icon', { id: 'chevron-down', class: 'icon--50' } %}
+    </div>
+  </div>
+</div>
