@@ -16,6 +16,7 @@
   &:hover,
   &:focus {
     @apply border-brand-light text-brand-light;
+    @apply outline-none shadow-outline;
   }
 }
 
@@ -25,6 +26,7 @@
   &:hover,
   &:focus {
     @apply bg-brand-dark;
+    @apply outline-none shadow-outline;
   }
 }
 
@@ -34,6 +36,7 @@
   &:hover,
   &:focus {
     @apply bg-gray-700;
+    @apply outline-none shadow-outline;
   }
 }
 

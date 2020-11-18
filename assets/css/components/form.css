@@ -20,6 +20,12 @@
   @apply text-brand;
   @apply p-1;
   @apply border-1 border-gray-300;
+
+  &:hover,
+  &:focus {
+    @apply border-brand-light text-brand-light;
+    @apply outline-none shadow-outline;
+  }
 }
 
 .select-group {
@@ -31,6 +37,12 @@
   @apply w-full;
   @apply border-b-2 border-brand;
   @apply bg-transparent p-1 text-brand;
+
+  &:hover,
+  &:focus {
+    @apply border-brand-light text-brand-light;
+    @apply outline-none shadow-outline;
+  }
 }
 
 .select-icon {

@@ -57,6 +57,10 @@ module.exports = {
         900: '#0C0D0D',
       },
     },
+    boxShadow: {
+      outline: '0 0 0 0.2rem rgba(83, 194, 163, 0.5)',
+      focus: '0 0 0 0.2rem rgba(83, 194, 163, 0.5)',
+    },
   },
   variants: {},
   plugins: [],
