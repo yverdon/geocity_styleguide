@@ -1,7 +1,7 @@
 {
-  "name": "styleguide-starterkit",
+  "name": "geocity-styleguide",
   "version": "0.6.12",
-  "description": "A starterkit to create styleguides with Fractal and Webpack.",
+  "description": "Public space is the point of access to information on the activities planned on the territory of your municipality",
   "keywords": [
     "styleguide",
     "toolkit",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/liip/styleguide-starterkit.git"
+    "url": "https://github.com/yverdon/geocity_styleguide"
   },
   "license": "MIT",
   "scripts": {
