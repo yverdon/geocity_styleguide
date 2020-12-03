@@ -1,3 +1,5 @@
+## [0.6.13](https://github.com/yverdon/geocity_styleguide/compare/0.6.12...0.6.13) (2020-12-03)
+
 ## [0.6.12](https://github.com/liip/styleguide-starterkit/compare/0.6.11...0.6.12) (2020-11-18)
 
 ## [0.6.11](https://github.com/liip/styleguide-starterkit/compare/0.6.10...0.6.11) (2020-11-18)
