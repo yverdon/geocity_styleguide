@@ -1,4 +1,4 @@
-const fractal = require('./fractal.js');
+const fractal = require('./fractal.config.js');
 const server = fractal.web.server();
 
 server.start().then(function () {

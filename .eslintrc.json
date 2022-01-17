@@ -4,7 +4,7 @@
   },
   "parserOptions": {
     "parser": "babel-eslint",
-    "ecmaVersion": 2020
+    "ecmaVersion": "latest"
   },
-  "extends": ["rawbot", "plugin:prettier/recommended"]
+  "extends": ["@liip-lausanne", "plugin:prettier/recommended"]
 }

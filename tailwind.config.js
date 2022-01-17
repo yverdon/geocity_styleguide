@@ -1,8 +1,6 @@
 module.exports = {
-  purge: {
-    content: ['./components/**/*.nunj'],
-    options: {},
-  },
+  corePlugins: { preflight: false },
+  content: ['./components/**/*.nunj'],
   theme: {
     screens: {
       sm: '640px',
@@ -11,7 +9,7 @@ module.exports = {
       xl: '1280px',
     },
     borderWidth: {
-      default: '1px',
+      DEFAULT: '1px',
       0: '0',
       1: '1px',
       2: '2px',
@@ -35,15 +33,15 @@ module.exports = {
     },
     colors: {
       transparent: {
-        default: 'transparent',
+        DEFAULT: 'transparent',
       },
       brand: {
         light: '#53c2a3',
-        default: '#008C6F',
+        DEFAULT: '#008C6F',
         dark: '#007f75',
       },
       negative: {
-        default: '#fff',
+        DEFAULT: '#fff',
       },
       gray: {
         100: '#F1F4F8',
@@ -62,7 +60,6 @@ module.exports = {
       focus: '0 0 0 0.2rem rgba(83, 194, 163, 0.5)',
     },
   },
-  variants: {},
   plugins: [],
   future: {
     removeDeprecatedGapUtilities: true,
