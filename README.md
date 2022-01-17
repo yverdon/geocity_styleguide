@@ -9,6 +9,10 @@ Styleguides build with [Fractal](http://fractal.build/) and [Webpack](https://we
 -   Live reload (with hot module replacement) for comfortable development
 -   Automated release management with [release-it](https://github.com/webpro/release-it)
 
+### Node and npm version
+
+If you have `nvm` installed on your system, you can simply `nvm use` in the root directory to pick up the correct version provided in the `.nvmrc` file.
+
 ## Installation
 
 Prerequisites: [Node.js](https://nodejs.org/en/) >= 10, <= 12

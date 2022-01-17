@@ -3,7 +3,15 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const TerserJSPlugin = require('terser-webpack-plugin');
-const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+
+const plugins = [
+  new MiniCssExtractPlugin(),
+  new SpriteLoaderPlugin(),
+  new CleanWebpackPlugin({
+    cleanOnceBeforeBuildPatterns: ['**/*', '!.gitkeep'],
+  }),
+];
 
 module.exports = {
   mode: process.env.NODE_ENV,
@@ -23,6 +31,7 @@ module.exports = {
     libraryTarget: 'umd',
     umdNamedDefine: true,
   },
+  plugins,
   module: {
     rules: [
       {
@@ -32,16 +41,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [
-          {
-            loader: MiniCssExtractPlugin.loader,
-            options: {
-              hmr: process.env.NODE_ENV === 'development',
-            },
-          },
-          'css-loader',
-          'postcss-loader',
-        ],
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'],
       },
       {
         test: /\.(svg|png|jpe?g|gif|webp|woff|woff2|eot|ttf|otf)$/,
@@ -73,26 +73,28 @@ module.exports = {
       },
     ],
   },
-  plugins: [
-    new MiniCssExtractPlugin({
-      filename: '[name].css',
-    }),
-    new SpriteLoaderPlugin(),
-    new CleanWebpackPlugin(),
-  ],
   devServer: {
-    historyApiFallback: true,
-    compress: true,
     proxy: {
-      '**': 'http://localhost:4000',
+      '**': {
+        target: 'http://localhost:4000',
+      },
     },
-    port: 2000,
-    stats: {
-      colors: true,
+    allowedHosts: 'localhost'.split(/\s+/),
+    host: '0.0.0.0',
+    port: 3000,
+    compress: true,
+    client: {
+      overlay: true,
+      // Enable `webSocketURL` if you use Pontsun configuration
+      // webSocketURL: {
+      //   port: 443,
+      // },
     },
-    overlay: true,
+    static: {
+      directory: './components/**/*.nunj',
+    },
   },
   optimization: {
-    minimizer: [new TerserJSPlugin(), new OptimizeCSSAssetsPlugin()],
+    minimizer: [new TerserJSPlugin(), new CssMinimizerPlugin()],
   },
 };

@@ -1,3 +1,5 @@
+## [0.6.15](https://github.com/yverdon/geocity_styleguide/compare/0.6.14...0.6.15) (2022-01-17)
+
 ## [0.6.14](https://github.com/yverdon/geocity_styleguide/compare/0.6.13...0.6.14) (2020-12-16)
 
 ## [0.6.13](https://github.com/yverdon/geocity_styleguide/compare/0.6.12...0.6.13) (2020-12-03)
