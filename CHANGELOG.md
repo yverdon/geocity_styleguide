@@ -1,3 +1,10 @@
+## [0.6.16](https://github.com/yverdon/geocity_styleguide/compare/0.6.15...0.6.16) (2022-04-04)
+
+
+### Bug Fixes
+
+* add user icon ([fa3fde6](https://github.com/yverdon/geocity_styleguide/commit/fa3fde68df480b8b3c4bed0ac2e4e9aaa6e68b0f))
+
 ## [0.6.15](https://github.com/yverdon/geocity_styleguide/compare/0.6.14...0.6.15) (2022-01-17)
 
 ## [0.6.14](https://github.com/yverdon/geocity_styleguide/compare/0.6.13...0.6.14) (2020-12-16)
