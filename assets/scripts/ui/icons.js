@@ -5,3 +5,6 @@ import '@/icons/right.svg';
 import '@/icons/chevron-down.svg';
 import '@/icons/close.svg';
 import '@/icons/user.svg';
+import '@circle-check';
+import '@circle-xmark';
+import '@download';

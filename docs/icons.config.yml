@@ -8,3 +8,6 @@ context:
       - chevron-down
       - close
       - user
+      - circle-check
+      - circle-xmark
+      - download
