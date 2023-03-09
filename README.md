@@ -2,12 +2,12 @@
 
 Styleguides build with [Fractal](http://fractal.build/) and [Webpack](https://webpack.js.org/).
 
--   Fractal pre-configured with [Nunjucks](https://mozilla.github.io/nunjucks/)
--   JavaScript bundling with Webpack and [Babel](http://babeljs.io/)
--   Sass compilation, including [Autoprefixer](https://github.com/postcss/autoprefixer)
--   [SVG icons sprite](https://css-tricks.com/svg-symbol-good-choice-icons/) generation
--   Live reload (with hot module replacement) for comfortable development
--   Automated release management with [release-it](https://github.com/webpro/release-it)
+- Fractal pre-configured with [Nunjucks](https://mozilla.github.io/nunjucks/)
+- JavaScript bundling with Webpack and [Babel](http://babeljs.io/)
+- Sass compilation, including [Autoprefixer](https://github.com/postcss/autoprefixer)
+- [SVG icons sprite](https://css-tricks.com/svg-symbol-good-choice-icons/) generation
+- Live reload (with hot module replacement) for comfortable development
+- Automated release management with [release-it](https://github.com/webpro/release-it)
 
 ### Node and npm version
 
@@ -15,7 +15,7 @@ If you have `nvm` installed on your system, you can simply `nvm use` in the root
 
 ## Installation
 
-Prerequisites: [Node.js](https://nodejs.org/en/) >= 10, <= 12
+Prerequisites: [Node.js](https://nodejs.org/en/), for the current version see in `/.nvmrc`.
 
 Install the npm dependencies with:
 
@@ -35,11 +35,11 @@ You can now access your styleguide at [localhost:3000](http://localhost:3000).
 
 You’re all set, start to:
 
--   Create components as `.nunj` (Nunjucks) files inside the `components` directory
--   Write some style inside `assets/scss/common.scss`
--   Write JavaScript inside `assets/scripts/common.js`
--   Put some `*.svg` icons in the `assets/icons` directory
--   Write documentation as `.md` (Markdown) files inside the `docs` directory.
+- Create components as `.nunj` (Nunjucks) files inside the `components` directory
+- Write some style inside `assets/scss/common.scss`
+- Write JavaScript inside `assets/scripts/common.js`
+- Put some `*.svg` icons in the `assets/icons` directory
+- Write documentation as `.md` (Markdown) files inside the `docs` directory.
 
 ## Build
 
