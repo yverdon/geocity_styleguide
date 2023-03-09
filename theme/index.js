@@ -13,7 +13,6 @@ const subTheme = mandelbrot({
     '/subtheme/js/preview-size.js',
   ],
   format: 'yaml',
-  favicon: '/subtheme/favicon.ico',
 });
 
 /*
@@ -25,6 +24,7 @@ subTheme.addLoadPath(`${__dirname}/views`);
  * Specify the static assets directory that contains the custom stylesheet.
  */
 subTheme.addStatic(`${__dirname}/dist`, '/subtheme');
+subTheme.addStatic(`${__dirname}/dist/img`, '/img');
 
 /*
  * Export the customised theme instance so it can be used in Fractal projects

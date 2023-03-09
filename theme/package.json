@@ -4,8 +4,8 @@
   "description": "Madelbrot theme customized",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass --include-path 'node_modules' --output-style compressed -o dist/css assets/scss",
-    "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
+    "scss": "sass --load-path 'node_modules' --style compressed --no-source-map assets/scss:dist/css",
+    "autoprefixer": "postcss -u autoprefixer --no-map -r dist/css/*.css",
     "build:css": "npm run scss && npm run autoprefixer",
     "watch:css": "onchange 'assets/scss/**/*.scss' -- npm run build:css",
     "start": "npm run scss && npm run watch:css",
@@ -13,18 +13,15 @@
   },
   "author": "Liip AG",
   "private": true,
-  "dependencies": {
-    "@frctl/mandelbrot": "^1.4.0"
-  },
   "devDependencies": {
-    "autoprefixer": "^9.8.5",
-    "highlight.js": "^9.12.0",
-    "node-sass": "^4.14.1",
-    "normalize.css": "^7.0.0",
-    "onchange": "^7.0.2",
-    "postcss-cli": "^7.1.1",
-    "sass-mq": "^3.3.2",
-    "select2": "^4.0.3"
+    "autoprefixer": "^10.4.13",
+    "highlight.js": "^10.7.2",
+    "normalize.css": "^8.0.1",
+    "onchange": "^7.1.0",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "sass": "^1.58.3",
+    "sass-mq": "^5.0.1"
   },
   "browserslist": [
     "last 2 versions",
