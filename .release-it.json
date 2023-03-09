@@ -1,6 +1,7 @@
 {
-  "scripts": {
-    "after:release": "npm run build && npm run deploy"
+  "hooks": {
+    "after:bump": "npm run build",
+    "after:release": "npm run deploy"
   },
   "npm": {
     "publish": false
