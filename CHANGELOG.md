@@ -1,3 +1,18 @@
+
+
+# [0.7.0](https://github.com/yverdon/geocity_styleguide/compare/0.6.15...0.7.0) (2023-03-09)
+
+
+### Bug Fixes
+
+* add user icon ([fa3fde6](https://github.com/yverdon/geocity_styleguide/commit/fa3fde68df480b8b3c4bed0ac2e4e9aaa6e68b0f))
+* webpack config font files generation ([b67c07d](https://github.com/yverdon/geocity_styleguide/commit/b67c07d6dd94f5fd828bc04bc26e9e72f90c4931))
+
+
+### Features
+
+* update Node and dependencies ([91fb9ae](https://github.com/yverdon/geocity_styleguide/commit/91fb9ae7db7b2818b579efb78a194b94abbf3363))
+
 ## [0.6.16](https://github.com/yverdon/geocity_styleguide/compare/0.6.15...0.6.16) (2022-04-04)
 
 
@@ -88,4 +103,3 @@
 * Document Input & Select form elements ([91da9dc](https://github.com/liip/styleguide-starterkit/commit/91da9dcbbd853a9e144d29e26d6e6f3e9e1acc71))
 * Document Logo ([2810336](https://github.com/liip/styleguide-starterkit/commit/2810336ca4c1377d592934ba0e767d1f5bcdccca))
 * Document Typography & Colors ([92d2ada](https://github.com/liip/styleguide-starterkit/commit/92d2ada33a65536668dbb1fab1839cce46976588))
-
